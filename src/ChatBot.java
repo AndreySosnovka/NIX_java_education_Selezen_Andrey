@@ -30,5 +30,30 @@ public class ChatBot {
         for(int i = 0; i <= value; i++) {
             System.out.println(i +"!");
         }
+        System.out.println("Lets test your programming knowledge.");
+        System.out.println("Choose one of the correct options.");
+        System.out.println("What is OutOfMemoryError?");
+        System.out.println("1.  Protocol error");
+        System.out.println("2.  Variable name");
+        System.out.println("3.  Is a runtime error in Java which occurs when the Java Virtual Machine is unable to allocate an object due to insufficient space in the Java heap");
+        System.out.println("4.  This is the name of the city.");
+
+
+        int choose = scannerInt.nextInt();
+        switch (choose){
+            case 1:
+                System.out.println("Please, try again.");
+                break;
+            case 2:
+                System.out.println("Please, try again.");
+                break;
+            case 3:
+                System.out.println("Great, you right!");
+                break;
+            case 4:
+                System.out.println("Please, try again.");
+                break;
+        }
+        System.out.println("Goodbye, have a nice day!");
     }
 }
