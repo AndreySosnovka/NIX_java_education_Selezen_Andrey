@@ -37,8 +37,6 @@ public class ChatBot {
         System.out.println("2.  Variable name");
         System.out.println("3.  Is a runtime error in Java which occurs when the Java Virtual Machine is unable to allocate an object due to insufficient space in the Java heap");
         System.out.println("4.  This is the name of the city.");
-
-
         int choose = scannerInt.nextInt();
         switch (choose){
             case 1:
